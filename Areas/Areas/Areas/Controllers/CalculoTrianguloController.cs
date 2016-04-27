@@ -16,7 +16,7 @@ namespace Areas.Controllers
 
         public ActionResult calcularAreaTriangulo()
         {
-            string catetoA = Request["CatetoA"];
+            string catetoA = Request["catetrcvA"];
             string catetoB = Request["CatetoB"];
 
             int resultado = (Convert.ToInt32(catetoA) * Convert.ToInt32(catetoB))/2;
